@@ -10,9 +10,10 @@ const calDiffStr = (oldDate, newDate = Date.now()) => {
 const BOY = '🐷';
 const GIRL = '🐱';
 const DATE_MAP = {
-  MEET: new Date('2018-02-08'),
-  CONFESSION: new Date('2018-04-06'),
-  CONFESSION_YES: new Date('2018-05-18'),
+  MEET: new Date('2014-02-21'),
+  CONFESSION: new Date('2017-09-01'),
+  CONFESSION_YES: new Date('2020-05-13'),
+  JIEHUN: new Date('2020-10-18'),
 };
 
 
@@ -23,19 +24,20 @@ export default {
 // 我给你表演写代码
 // 我要开始写啦
 const { ${BOY}, ${GIRL} } = 🇨🇳;
-(${BOY}, ${GIRL}).相遇('${moment(DATE_MAP.MEET).format('LL')}');
-(${BOY}, ${GIRL}).表白('${moment(DATE_MAP.CONFESSION).format('LL')}');
-(${BOY}, ${GIRL}).在一起('${moment(DATE_MAP.CONFESSION_YES).format('LL')}');
+(${BOY}, ${GIRL}).相遇.在潍坊('${moment(DATE_MAP.MEET).format('LL')}');
+(${BOY}, ${GIRL}).读研.在杭州.('${moment(DATE_MAP.CONFESSION).format('LL')}');
+(${BOY}, ${GIRL}).婚纱照.在深圳.('${moment(DATE_MAP.CONFESSION_YES).format('LL')}');
+(${BOY}, ${GIRL}).结婚.在济宁.('${moment(DATE_MAP.CONFESSION_YES).format('LL')}');
 
 ${BOY}.say('WoW，已经${calDiffStr(DATE_MAP.CONFESSION_YES)}了！');
 ....
 
-// 希望不远的将来
+// 希望不远的将来 (预计今年10月18号)
 ${BOY}.say('嫁给我吧!❤️');
 ${GIRL}.response('Yes, I do！');
 
-(${BOY}, ${GIRL}).结婚('xxxx年xx月xx日')
-(${BOY}, ${GIRL}).发请帖('yyyy年yy月yy日');
+(${BOY}, ${GIRL}).结婚('2020年10月18日')
+(${BOY}, ${GIRL}).发请帖('2020年05月20日');
 
 // 好了我写完了
 // 我要开始运行啦`,
